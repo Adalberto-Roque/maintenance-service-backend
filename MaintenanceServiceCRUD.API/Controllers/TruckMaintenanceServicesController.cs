@@ -43,7 +43,7 @@ namespace MaintenanceServiceCRUD.API.Controllers
                 .Include(e => e.MechanicalNavigation)
                 .Include(e => e.IdTruckNavigation)
                 .Include(e => e.IdTypeTruckMaintenanceServiceNavigation)
-                .OrderByDescending(e => e.IdTruckMaintenanceServices)
+                .OrderByDescending(e => e.IdTruckMaintenanceServices) 
                 .AsQueryable();
 
             #region Filters
