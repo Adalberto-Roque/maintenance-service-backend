@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZFtG36OIkq+t8wWBd4ia14bi8tI5TDlRO5YhZhkfcOZkXljj4RYxH9d1nlUdboTy6pYelUmgVixrvHBFanBIeg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Roque\\source\\repos\\MaintenanceServiceCRUD\\MaintenanceServiceCRUD.DAL\\MaintenanceServiceCRUD.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roque\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
+    "C:\\Users\\Roque\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.9\\microsoft.entityframeworkcore.design.5.0.9.nupkg.sha512",
+    "C:\\Users\\Roque\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.9\\microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512",
+    "C:\\Users\\Roque\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.9\\microsoft.entityframeworkcore.tools.5.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.EntityFrameworkCore 5.0.9 no es compatible con net50 (.NETFramework,Version=v5.0). El paquete Microsoft.EntityFrameworkCore 5.0.9 admite: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.EntityFrameworkCore.Design 5.0.9 no es compatible con net50 (.NETFramework,Version=v5.0). El paquete Microsoft.EntityFrameworkCore.Design 5.0.9 admite: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.EntityFrameworkCore.Tools 5.0.9 no es compatible con net50 (.NETFramework,Version=v5.0). El paquete Microsoft.EntityFrameworkCore.Tools 5.0.9 admite: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.EntityFrameworkCore.SqlServer 5.0.9 no es compatible con net50 (.NETFramework,Version=v5.0). El paquete Microsoft.EntityFrameworkCore.SqlServer 5.0.9 admite: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}

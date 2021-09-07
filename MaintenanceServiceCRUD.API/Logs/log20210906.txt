@@ -1,0 +1,74 @@
+09/06/2021 13:12:39 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 16:38:44 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 16:39:56 [] [ERR] An unhandled exception has occurred while executing the request. 
+ AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> VehicleQueryDto
+System.Object -> MaintenanceServiceCRUD.API.DTOs.VehicleQueryDto
+   at lambda_method35(Closure , Object , VehicleQueryDto , ResolutionContext )
+   at MaintenanceServiceCRUD.API.Controllers.VehiclesController.GetTrucks() in C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.API\Controllers\VehiclesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+09/06/2021 17:00:00 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:00:16 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:26:09 [] [INF] Se insertó correctame el mantenimineto con Id: 1 
+ 09/06/2021 17:35:48 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:35:56 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:37:21 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:37:32 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:45:30 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:45:38 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:47:24 [] [INF] Se insertó correctame el mantenimineto con Id: 1 
+ 09/06/2021 17:48:32 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:48:41 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:54:56 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 17:56:50 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 17:58:30 [] [INF] Se eliminó el folio 1 
+ 09/06/2021 18:05:17 [] [INF] Se insertó correctame el mantenimineto con Id: 2 
+ 09/06/2021 18:11:22 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 18:11:34 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 18:14:51 [] [INF] Se actualizó correctame el mantenimineto con Id: 2 
+ 09/06/2021 18:19:12 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 18:19:15 [] [INF] Now listening on: "https://localhost:5001" 
+ 09/06/2021 18:19:15 [] [INF] Now listening on: "http://localhost:5000" 
+ 09/06/2021 18:19:15 [] [INF] Application started. Press Ctrl+C to shut down. 
+ 09/06/2021 18:19:15 [] [INF] Hosting environment: "Development" 
+ 09/06/2021 18:19:15 [] [INF] Content root path: "C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.API" 
+ 09/06/2021 18:19:18 [] [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 
+ 09/06/2021 18:19:18 [] [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 242.0096ms 
+ 09/06/2021 18:19:19 [] [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 
+ 09/06/2021 18:19:19 [] [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 247.5407ms 
+ 09/06/2021 18:19:34 [] [INF] Request starting HTTP/2 GET https://localhost:5001/api/TruckMaintenanceServices - - 
+ 09/06/2021 18:19:34 [] [INF] CORS policy execution successful. 
+ 09/06/2021 18:19:34 [] [INF] Executing endpoint '"MaintenanceServiceCRUD.API.Controllers.TruckMaintenanceServicesController.GetTruckMaintenanceServices (MaintenanceServiceCRUD.API)"' 
+ 09/06/2021 18:19:34 [] [INF] Route matched with "{action = \"GetTruckMaintenanceServices\", controller = \"TruckMaintenanceServices\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTruckMaintenanceServices(MaintenanceServiceCRUD.API.Helpers.FilterCommon)" on controller "MaintenanceServiceCRUD.API.Controllers.TruckMaintenanceServicesController" ("MaintenanceServiceCRUD.API"). 
+ 09/06/2021 18:19:36 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 18:19:36 [] [INF] Entity Framework Core "5.0.9" initialized '"ContextDb"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" 
+ 09/06/2021 18:19:38 [] [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[IdTruckMaintenanceServices], [t].[Dispatcher], [t].[Driver], [t].[DueDate], [t].[IdTruck], [t].[IdTypeTruckMaintenanceService], [t].[Mechanical], [e].[IdEmployee], [e].[EmployeeNumber], [e].[FirstName], [e].[IdJob], [e].[IdTruck], [e].[LastName], [e0].[IdEmployee], [e0].[EmployeeNumber], [e0].[FirstName], [e0].[IdJob], [e0].[IdTruck], [e0].[LastName], [e1].[IdEmployee], [e1].[EmployeeNumber], [e1].[FirstName], [e1].[IdJob], [e1].[IdTruck], [e1].[LastName], [t0].[IdTruck], [t0].[LicensePlate], [t0].[Number], [t1].[IdTypeTruckMaintenanceService], [t1].[TypeDescription]
+FROM [MaintenanceServices].[TruckMaintenanceServices] AS [t]
+INNER JOIN [Employees].[Employees] AS [e] ON [t].[Driver] = [e].[IdEmployee]
+INNER JOIN [Employees].[Employees] AS [e0] ON [t].[Dispatcher] = [e0].[IdEmployee]
+INNER JOIN [Employees].[Employees] AS [e1] ON [t].[Mechanical] = [e1].[IdEmployee]
+INNER JOIN [Vehicles].[Trucks] AS [t0] ON [t].[IdTruck] = [t0].[IdTruck]
+INNER JOIN [MaintenanceServices].[TypeTruckMaintenanceServices] AS [t1] ON [t].[IdTypeTruckMaintenanceService] = [t1].[IdTypeTruckMaintenanceService]" 
+ 09/06/2021 18:19:38 [] [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[MaintenanceServiceCRUD.API.DTOs.TruckMaintenanceServiceDto, MaintenanceServiceCRUD.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. 
+ 09/06/2021 18:19:38 [] [INF] Executed action "MaintenanceServiceCRUD.API.Controllers.TruckMaintenanceServicesController.GetTruckMaintenanceServices (MaintenanceServiceCRUD.API)" in 3856.3942ms 
+ 09/06/2021 18:19:38 [] [INF] Executed endpoint '"MaintenanceServiceCRUD.API.Controllers.TruckMaintenanceServicesController.GetTruckMaintenanceServices (MaintenanceServiceCRUD.API)"' 
+ 09/06/2021 18:19:38 [] [INF] Request finished HTTP/2 GET https://localhost:5001/api/TruckMaintenanceServices - - - 200 - application/json;+charset=utf-8 4229.7792ms 
+ 09/06/2021 18:21:04 [] [INF] Iniciando Proyecto... 
+ 09/06/2021 18:21:17 [] [WRN] The property '"IdTypeTruckMaintenanceService"' on entity type '"TypeTruckMaintenanceService"' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values. 
+ 09/06/2021 18:21:18 [] [INF] HTTP "GET" "/api/TruckMaintenanceServices" responded 200 in 3419.3665 ms 
+ 

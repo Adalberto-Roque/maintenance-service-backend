@@ -1,0 +1,15 @@
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\MaintenanceServiceCRUD.DAL.deps.json
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\MaintenanceServiceCRUD.DAL.runtimeconfig.json
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\MaintenanceServiceCRUD.DAL.runtimeconfig.dev.json
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\MaintenanceServiceCRUD.DAL.dll
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\ref\MaintenanceServiceCRUD.DAL.dll
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\bin\Debug\net5.0\MaintenanceServiceCRUD.DAL.pdb
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.csproj.AssemblyReference.cache
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.AssemblyInfoInputs.cache
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.AssemblyInfo.cs
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.csproj.CoreCompileInputs.cache
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.dll
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\ref\MaintenanceServiceCRUD.DAL.dll
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.pdb
+C:\Users\DESAROLLO2\source\repos\MaintenanceServiceCRUD\MaintenanceServiceCRUD.DAL\obj\Debug\net5.0\MaintenanceServiceCRUD.DAL.genruntimeconfig.cache
